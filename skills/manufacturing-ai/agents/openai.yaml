@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manufacturing AI"
+  short_description: "Plan and verify fabrication workflows"
+  default_prompt: "Use $manufacturing-ai to plan and verify a physical product from source file to final inspection."
