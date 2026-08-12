@@ -11,8 +11,12 @@ The skill treats a valid model, successful slice, accepted printer job, complete
 Ask Codex to install the skill from this repository:
 
 ```text
-$skill-installer Install the skill from https://github.com/J-D11/manufacturing-ai/tree/main/skills/manufacturing-ai
+$skill-installer Install the skill from https://github.com/J-D11/manufacturing-ai/tree/v1.0.0/skills/manufacturing-ai
 ```
+
+The versioned URL is the reviewed release. Use the `main` branch only when you intentionally want the latest unreleased changes.
+
+Every push and pull request runs a privacy check that rejects private macOS paths, email addresses, and credential-like values in tracked content.
 
 Codex detects newly installed skills automatically. Restart Codex if it does not appear immediately.
 

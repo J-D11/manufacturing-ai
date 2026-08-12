@@ -5,6 +5,7 @@
 - Configuration fingerprint and physical condition:
 - Frozen baseline paths, versions, or hashes:
 - Active assignment IDs, independent scopes, and dependencies:
+- Delegation recipient, purpose, data classification, redactions, and user-approved disclosure:
 - Returned evidence, provenance, contradictions, and reconciled decision:
 - Source and approved file versions:
 - Dimensions / units / tolerances:

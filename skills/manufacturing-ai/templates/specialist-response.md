@@ -7,6 +7,7 @@
 - Confirmed findings / inferences:
 - Baseline versus candidate comparison:
 - Evidence and provenance:
+- Data received, redactions preserved, external destinations accessed, and disclosure limits followed:
 - Contradictions and missing evidence:
 - What this proves / does not prove:
 - Risks and limitations:
