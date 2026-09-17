@@ -8,3 +8,5 @@
 - Hold-point observations, critical transitions, stop events, and deviations:
 - Completion, safe removal, post-processing, assembly, per-part inspection, and packaging:
 - Cost assumptions, quality criteria, and change log:
+- Attempted / accepted / rejected / pending quantities and disposition:
+- Setup cost / attempt cost / accepted-only cost / yield assumption / currency and estimate date:

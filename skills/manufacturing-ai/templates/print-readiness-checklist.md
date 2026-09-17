@@ -9,4 +9,3 @@
 - Actual first-layer position, height, contact/clearance, and every intended material/tool path verified:
 - Representative test result, proof limits, hold points, stop criteria, and risks:
 - Exact send mapping, delivered settings, machine acceptance, and monitoring plan:
-- Current user approval for the exact device, job or file hash, material/profile, intended action, monitoring plan, and known risks (required immediately before any send or machine action):

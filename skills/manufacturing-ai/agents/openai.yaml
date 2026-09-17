@@ -1,4 +1,4 @@
 interface:
   display_name: "Manufacturing AI"
-  short_description: "Plan and verify fabrication workflows"
-  default_prompt: "Use $manufacturing-ai to plan and verify a physical product from source file to final inspection."
+  short_description: "Build, troubleshoot, and verify 3D prints"
+  default_prompt: "Use $manufacturing-ai to help me turn my idea or model into a usable 3D print, starting with the next practical step."

@@ -1,0 +1,190 @@
+{
+  "status": "digitally_rendered_only",
+  "physical_trials": "unrun",
+  "generator": "OpenSCAD 2026.09.03",
+  "parameters": "Default source parameters, with part selected according to the output filename. Source hashes identify the exact defaults.",
+  "source_sha256": {
+    "enclosure.scad": "9db556ed9dfa637f2cf3de1265d7527698aba0c197ece0cfef6ce7ae3458957c",
+    "fitted-bracket.scad": "8f7166542a9a2dbf69491d4af057cd940f8b2dcd5448d6ff393aa81c97ba381a",
+    "multicolor-sign.scad": "4445747589e437e9c6a5789cec4397db5f32a1d93e2aeb994d7a002185c5f851"
+  },
+  "exports": [
+    {
+      "file": "exports/enclosure-box.stl",
+      "sha256": "cdb639cabb99c56393e31bd6bb8995f3a9acdb92d540f17ecdec8f01cbd8ca11",
+      "bounds_mm": {
+        "extent": [
+          68.0,
+          48.0,
+          22.0
+        ],
+        "max": [
+          68.0,
+          48.0,
+          22.0
+        ],
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "triangle_count": 28
+    },
+    {
+      "file": "exports/enclosure-lid.stl",
+      "sha256": "7c7fef46dbc6c6b2b88e1634a55d7ba54e0713d0a078a4ba3815e380d1fe6738",
+      "bounds_mm": {
+        "extent": [
+          68.0,
+          48.0,
+          5.0
+        ],
+        "max": [
+          68.0,
+          48.0,
+          5.0
+        ],
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "triangle_count": 44
+    },
+    {
+      "file": "exports/enclosure-mouth_coupon.stl",
+      "sha256": "bb0027a58b59f370370c33333f830667d4ff8158cfdc236f63d5b45f9d61bda0",
+      "bounds_mm": {
+        "extent": [
+          68.0,
+          48.0,
+          6.0
+        ],
+        "max": [
+          68.0,
+          48.0,
+          6.0
+        ],
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "triangle_count": 32
+    },
+    {
+      "file": "exports/enclosure-rim_coupon.stl",
+      "sha256": "d6453e8f27336a9b15ad249418f8289b39f23b43d05c4554fc97e9bffe335da1",
+      "bounds_mm": {
+        "extent": [
+          68.0,
+          48.0,
+          5.0
+        ],
+        "max": [
+          68.0,
+          48.0,
+          5.0
+        ],
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "triangle_count": 64
+    },
+    {
+      "file": "exports/fitted-bracket-bracket.stl",
+      "sha256": "61fdf6ad4d92e8e5367d316ee339e01bb0018f90ff1b508601539536d46f0c7e",
+      "bounds_mm": {
+        "extent": [
+          18.0,
+          26.399999618530273,
+          25.0
+        ],
+        "max": [
+          18.0,
+          26.399999618530273,
+          25.0
+        ],
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "triangle_count": 428
+    },
+    {
+      "file": "exports/fitted-bracket-fit_coupon.stl",
+      "sha256": "1a06470eb3932eb31d53a8e5ccbed6fe6b2b3abd84d3e63819c3a5e5e8375423",
+      "bounds_mm": {
+        "extent": [
+          18.0,
+          26.399999618530273,
+          8.0
+        ],
+        "max": [
+          18.0,
+          26.399999618530273,
+          8.0
+        ],
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "triangle_count": 316
+    },
+    {
+      "file": "exports/multicolor-sign-coupon.stl",
+      "sha256": "b814995f0a183b13b74f4c736d32eb088fbe88290b9d0e38b20c785facbd405f",
+      "bounds_mm": {
+        "extent": [
+          40.0,
+          35.0,
+          4.0
+        ],
+        "max": [
+          70.0,
+          35.0,
+          4.0
+        ],
+        "min": [
+          30.0,
+          0.0,
+          0.0
+        ]
+      },
+      "triangle_count": 236
+    },
+    {
+      "file": "exports/multicolor-sign-sign.stl",
+      "sha256": "da23ce5b61153fa3f1a80a28afc76965f0b2bae7cecb78a03836ba671ee97ac1",
+      "bounds_mm": {
+        "extent": [
+          100.0,
+          35.0,
+          4.0
+        ],
+        "max": [
+          100.0,
+          35.0,
+          4.0
+        ],
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "triangle_count": 324
+    }
+  ],
+  "limits": "STL has no authoritative units; these source models use millimeters. No slicer Preview or physical approval. Default export checks do not transfer to edited source."
+}

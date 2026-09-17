@@ -5,7 +5,6 @@
 - Configuration fingerprint and physical condition:
 - Frozen baseline paths, versions, or hashes:
 - Active assignment IDs, independent scopes, and dependencies:
-- Delegation recipient, purpose, data classification, redactions, and user-approved disclosure:
 - Returned evidence, provenance, contradictions, and reconciled decision:
 - Source and approved file versions:
 - Dimensions / units / tolerances:
@@ -16,3 +15,5 @@
 - Scoped gate passes, proof limits, and invalidated dependent gates:
 - Risks / known issues / hold point / stop criteria / next gate:
 - Inspection, fit, function, and final approval results:
+- Requested completion scope / applicable gates / N/A reasons:
+- Evidence timestamps, direct or reported source, artifact/run/part identity:

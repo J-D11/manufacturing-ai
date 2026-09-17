@@ -1,6 +1,6 @@
 # Design for Manufacturing Review
 
-Inspect geometry: closed/manifold solids, normals, duplicate or floating bodies, zero-thickness surfaces, thin walls, cavities, scale and units, details, and unintended repair changes.
+For solid/mesh work, inspect closed/manifold solids, normals, duplicate or floating bodies, zero-thickness surfaces, thin walls, and cavities. For planar cutting, inspect intended closed contours, duplicate cut paths, kerf allowances, and joint geometry. For either, verify scale, units, details, and unintended repair changes.
 
 Inspect function: load path, layer-direction weakness, stress risers, flex points, fastener access, wear, heat, moving clearances, cable routing, vents, moisture paths, serviceability, and assembly order.
 

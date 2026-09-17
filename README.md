@@ -11,7 +11,7 @@ The skill treats a valid model, successful slice, accepted printer job, complete
 Ask Codex to install the skill from this repository:
 
 ```text
-$skill-installer Install the skill from https://github.com/J-D11/manufacturing-ai/tree/v1.0.0/skills/manufacturing-ai
+$skill-installer Install the skill from https://github.com/J-D11/manufacturing-ai/tree/v1.1.0/skills/manufacturing-ai
 ```
 
 The versioned URL is the reviewed release. Use the `main` branch only when you intentionally want the latest unreleased changes.
@@ -52,6 +52,17 @@ Use $manufacturing-ai to plan a repeatable 20-part FDM production run with inspe
 - `references/`: focused guidance for process selection, DFM, file formats, materials, slicing, calibration, testing, failures, quality control, and production planning.
 - `templates/`: reusable project, test, inspection, production, and specialist-handoff records.
 - `agents/openai.yaml`: Codex display metadata and default prompt.
+
+## Reliability tools
+
+The skill includes read-only STL/3MF inspection, native Bambu sliced-job checks, and dimensional relationship checks. It also includes beginner examples, editable starter models, and guidance for reusing scoped physical-test evidence.
+
+```sh
+python3 -m unittest discover -s skills/manufacturing-ai/tests
+python3 skills/manufacturing-ai/scripts/check_print_job.py print.gcode.3mf --pauses 25 --printer 'Bambu Lab P1S' --nozzle 0.4
+```
+
+The pause value above is an example, not a universal magnet setting. Use the actual first sealing layer in your sliced job. These tools do not certify geometry, printer readiness, or physical fit. Starter models are digitally checked examples, not physically approved prints.
 
 ## Optional Bambu companion
 
